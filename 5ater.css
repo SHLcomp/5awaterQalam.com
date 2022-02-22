@@ -9,10 +9,7 @@ header{
     width: 100%;
     border: solid 2px transparent;
 }
-/*
-header, .nav-bar{
-    position: fixed;
-}     */         
+        
 li{
     list-style: none;
 }
@@ -81,7 +78,24 @@ li{
     text-decoration: none;
     color: aliceblue;
     cursor: default;
+    text-align: center;
 }
+
+.mobile-divmenu{
+    background-color: aqua;
+    text-align: center;
+    padding: 70px 0px;
+    transition: 0.4s ease;
+    font-size: 1rem;
+    display: none;
+}
+
+.nav-item-mobile{
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+
 body{
     background-image: url(wallpaper.jpg);
 }
@@ -126,7 +140,12 @@ body{
     .burg{
         display: block;
         margin: 10px -20px;
-    } 
+    }
+    
+    .mobile-divmenu.active{
+        display: block;
+    }
+
     .all-divs{
         display: list-item;
         padding: 0px 80px;
