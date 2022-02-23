@@ -12,6 +12,13 @@ header{
     width: 100%;
     border: solid 2px black;
 }
+
+.h1{
+    text-align: center;
+    font-size: 1.5rem;
+    display: none;
+}
+
         
 li{
     list-style: none;
@@ -211,7 +218,9 @@ li{
         margin: 10px -20px;
     }
 
-    
+    .h1{
+        display: block;
+    }
 
     .all-divs{
         display: list-item;
